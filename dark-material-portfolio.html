@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - DevOps</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .nav-wrapper {
+            background-color: #1e1e1e;
+        }
+        .card {
+            background-color: #1e1e1e;
+        }
+        .card-content {
+            color: #ffffff;
+        }
+        .btn {
+            background-color: #bb86fc;
+            color: #000000;
+        }
+        .btn:hover {
+            background-color: #3700b3;
+        }
+        .section {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+        .parallax-container {
+            height: 400px;
+        }
+        .brand-logo, .sidenav-trigger {
+            color: #bb86fc;
+        }
+        .page-footer {
+            background-color: #1e1e1e;
+        }
+        .download-cv {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+        .download-cv .btn-floating {
+            background-color: #03dac6;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Fabio Cerundolo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#chi-sono">Chi Sono</a></li>
+                <li><a href="#competenze">Competenze</a></li>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#chi-sono">Chi Sono</a></li>
+        <li><a href="#competenze">Competenze</a></li>
+        <li><a href="#progetti">Progetti</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+    </ul>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="AdobeStock_518990215.jpeg" alt="background">
+        </div>
+        <div class="container">
+            <h1 class="white-text" style="padding-top: 50px;">Sviluppatore Web</h1>
+            <h5 class="white-text">DevOps</h5>
+        </div>
+    </div>
+
+    <main>
+        <section id="chi-sono" class="section scrollspy">
+            <div class="container">
+                <h2>Chi Sono</h2>
+                <h5><p>Sono uno Sviluppatore Web Full Stack con oltre 2 anni di esperienza nella creazione di applicazioni web innovative e scalabili.</p> 
+                <p>Abile sia nel front-end che nel back-end, mi dedico alla costruzione di soluzioni efficienti
+                 che migliorano l'esperienza utente e soddisfano le esigenze aziendali.</p></h5>
+            </div>
+        </section>
+
+        <section id="competenze" class="section scrollspy">
+            <div class="container">
+                <h2>Competenze</h2>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content center-align">
+                                <i class="material-icons large">code</i>
+                                <h5>JavaScript, Python, PHP, Java, HTML5, CSS3, LESS, Angular, Node.js, Django, Flask, Spring Boot</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content center-align">
+                                <i class="material-icons large">developer_mode</i>
+                                <h5>Docker, Git,<br> 
+									MySQL,<br> 
+									PostgreSQL,<br> 
+                                    SQLite</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content center-align">
+                                <i class="material-icons large">devices</i>
+                                <h5>RESTful APIs, GraphQL, WebSockets,<br> 
+									OAuth, JWT,<br> 
+									Microservizi, Agile/Scrum</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="progetti" class="section scrollspy">
+            <div class="container">
+                <h2>Progetti</h2>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/api/placeholder/600/400" alt="Progetto 1">
+                                <span class="card-title">[Nome Progetto 1]</span>
+                            </div>
+                            <div class="card-content">
+                                <p>[Breve descrizione del progetto]</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/fabio-cerundolo/ISCS_2023" class="btn" target="_blank">Vedi progetto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="/api/placeholder/600/400" alt="Progetto 2">
+                                <span class="card-title">[Nome Progetto 2]</span>
+                            </div>
+                            <div class="card-content">
+                                <p>[Breve descrizione del progetto]</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/fabio-cerundolo/Acquisti_Online" class="btn" target="_blank">Vedi progetto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatti" class="section scrollspy">
+            <div class="container">
+                <h2>Contatti</h2>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons">email</i> Email</span>
+                                <p>cerundolo.fabio@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <a href="https://www.linkedin.com/in/fabio-cerundolo" target="_blank">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons">link</i> LinkedIn</span>
+                                <p>Link di LinkedIn</p>
+                            </div></a>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <a href="https://github.com/fabio-cerundolo" target="_blank">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons">code</i> GitHub</span>
+                                <p>Link di GitHub</p>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5>[Tuo Nome]</h5>
+                    <p>Sviluppatore Web appassionato e creativo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 [Tuo Nome]
+            </div>
+        </div>
+    </footer>
+
+    <div class="download-cv">
+        <a href="[URL_DEL_TUO_CV.pdf]" class="btn-floating btn-large waves-effect waves-light tooltipped" data-position="left" data-tooltip="Scarica il mio CV" download>
+            <i class="material-icons">file_download</i>
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
+
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems);
+
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems, {
+                scrollOffset: 50
+            });
+        });
+    </script>
+</body>
+</html>
